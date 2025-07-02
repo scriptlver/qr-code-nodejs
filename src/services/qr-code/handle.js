@@ -1,6 +1,6 @@
 import qr from 'qrcode-terminal';
 import chalk from 'chalk';
-import createQRCODE from './create';
+import createQRCODE from './create.js';
 
 async function handle(err, result) {
     if(err){
@@ -16,4 +16,4 @@ async function handle(err, result) {
 
 }
 
-export default createQRCODE;
+export default handle;
